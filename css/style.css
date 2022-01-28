@@ -1,0 +1,65 @@
+header, footer, main {
+    background-color: #1F2937;
+}
+
+.header__navBar,
+.mainContainer,
+.imgsContainer,
+.quoteContainer {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header and Hero */
+.logoTexto,
+.mainTitle {
+    color: #F9FAF8;
+}
+
+.logoTexto {
+    font-size: 24px;
+}
+
+.mainTitle {
+    font-size: 48px;
+    font-weight:bold;
+}
+
+.mainInfo,
+nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header__navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.mainContainer__text {
+    height: 300px;
+    width: 600px;
+}
+
+.heroImg {
+    height: 350px;
+    width: 500px;
+    background-image:url(../images/hero.jpg);
+    background-size: cover;
+    
+}
+
+/* Moments Section */
+
+/* Quote Section*/
