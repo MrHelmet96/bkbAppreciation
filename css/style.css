@@ -36,12 +36,6 @@ nav a:hover {
     color: darkred;
 }
 
-.signBtn {
-    padding: 10px 30px;
-    border-radius: 4px;
-    background-color: darkred;
-}
-
 /* Header and Hero */
 .logoTexto,
 .mainTitle {
@@ -60,6 +54,7 @@ nav a:hover {
 .mainInfo,
 nav a {
     font-size: 18px;
+    color: #F9FAF8;
 }
 
 .header__navBar {
@@ -98,6 +93,16 @@ nav a {
     justify-content:space-between;
     align-items: center;
     padding: 50px;
+}
+
+.imgsLinkCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgsLinkCont p {
+    text-align: center;
 }
 
 .titlePlace {
@@ -146,6 +151,57 @@ nav a {
     padding: 80px;
 }
 
+.quote {
+    font-style: italic;
+    margin-bottom: 0;
+    line-height: 80px;
+}
+
 .author {
     align-self:flex-end;
+    font-weight: bold;
+}
+
+/** Sign Up Section **/
+
+.signupSection {
+    margin: 150px 0;
+    
+}
+
+.signupContainer {
+    padding: 50px 10px;
+    color: #F9FAF8;
+    background-color: darkred;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnCont a {
+    border: solid white;
+}
+
+.signBtn {
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: darkred;
+    
+}
+
+.signBtn:hover {
+    background-color: #e5e7eb;
+    color: darkred;
+}
+
+/** Footer **/
+
+.footerContainer {
+    padding: 60px;
+    color: #F9FAF8;
+}
+
+.footerContainer p {
+    text-align: center;
 }
